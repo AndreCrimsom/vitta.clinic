@@ -1,0 +1,35 @@
+#c1e9fc
+
+'white': '#ffffff',
+'gray-lightest': '#f9fafa',
+'gray-lighter': '#e6e6e6',
+'gray-light': '#d2d2d2',
+'gray': '#bfbfc0',
+'gray-dark': '#979898',
+'gray-darker': '#707070',
+'gray-darkest': '#49494a',
+'black': '#212222',
+
+'brand-light': '#f0f9fe',
+'brand': '#c1e9fc',
+'brand-dark': '#5c6d76',
+
+'cta-light': '#fff0f2',
+'cta': '#fcc1cb',
+'cta-dark': '#765c60',
+
+'info-light': '#dff7ff',
+'info': '#61e0fe',
+'info-dark': '#366977',
+
+'warning-light': '#fff7d6',
+'warning': '#fadf56',
+'warning-dark': '#76692f',
+
+'success-light': '#defcdb',
+'success': '#65ee6f',
+'success-dark': '#377039',
+
+'danger-light': '#ffdbd7',
+'danger': '#fe6666',
+'danger-dark': '#783634',
