@@ -31,7 +31,6 @@ create table clinica (
 
 create table consulta (
     id_consulta int(100) unsigned not null auto_increment,
-    tipo_consulta varchar(100) not null,
     data_consulta date not null,
     consulta_realizada varchar(3) not null,
     cpf_cliente_fk int(11) unsigned not null,
@@ -42,3 +41,8 @@ create table consulta (
     FOREIGN KEY (cpf_medico_fk) REFERENCES medico(cpf),
     FOREIGN KEY (cnpj_clinica_fk) REFERENCES clinica(cnpj)
 );
+
+INSERT INTO TABELA VALUES();
+iNSERT INTO TABELA(CAMPO1, CAMPO2, CAMPO3,) VALUES(CAMPO1, CAMPO2, CAMPO3,)
+SELECT * FROM TABELA
+SELECT CAMPO1, CAMPO2 FROM TABELA
