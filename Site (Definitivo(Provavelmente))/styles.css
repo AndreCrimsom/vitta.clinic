@@ -13,3 +13,12 @@
 .fonte-bold-700 {
     font-weight: 700;
 }
+
+.linkdoscards {
+    text-decoration: none;
+    color:black;
+}
+
+.imagemdomain {
+    background-image: url(imagens/—Pngtree—happy\ female\ doctor\ in\ medical_8800230.png);
+}
