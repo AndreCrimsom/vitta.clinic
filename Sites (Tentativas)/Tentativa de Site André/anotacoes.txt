@@ -1,6 +1,0 @@
-Paleta Facebook
-    #18191a Background
-    #242526 Card
-    #3a3b3c Hover
-    #e4e6eb Primary text
-    #b0b3b8 Secondary text
