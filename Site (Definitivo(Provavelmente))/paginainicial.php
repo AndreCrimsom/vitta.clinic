@@ -6,8 +6,7 @@
     </head>
     <body>
         <main>
-            <a href="links.htm">Pagina de Links</a>
-            teste
+            <a href="links.php">Pagina de Links</a>
         </main>
     </body>
 </html>
