@@ -7,8 +7,12 @@
     <body>
         <?php
         include 'cabecalho.php';
-        include 'paginainicial.php';
-        require_once 'Layout.php';
+        ?>
+        <main>
+            main
+        </main>
+        <?php
+        include 'rodape.php';
         ?>
     </body>
 </html>
