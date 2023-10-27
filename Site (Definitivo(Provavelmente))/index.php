@@ -7,12 +7,9 @@
     <body>
         <?php
         include 'cabecalho.php';
-        ?>
-        <main>
-            main
-        </main>
-        <?php
+        include 'paginainicial.php';
         include 'rodape.php';
         ?>
+
     </body>
 </html>
