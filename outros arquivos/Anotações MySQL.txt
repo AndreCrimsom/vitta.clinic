@@ -1,4 +1,0 @@
-cd xampp
-cd mysql
-cd bin
-mysql -uroot -p
