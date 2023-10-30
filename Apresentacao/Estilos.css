@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 2%;
+    box-sizing: border-box;
+    background-color: #18191A;
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #B0B3B8;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: #E4E6EB;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #E4E6EB;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #0066ff;
+    text-decoration: none;
+}
+
+.bluehighlight {
+    height: fit-content;
+    background: linear-gradient(45deg, rgb(0, 88, 219), rgb(0, 30, 71));
+}
