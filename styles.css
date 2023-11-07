@@ -6,6 +6,9 @@
     color: #000033;
 }
 
+.texto1branco {
+    color: #FFFFFF;
+}
 .fonte-recoleta {
     font-family: 'Recoleta';
     font-family: 'Recoleta';
@@ -13,7 +16,6 @@
         url('Recoleta-Bold.woff2') format('woff2'),
         url('Recoleta-Bold.woff') format('woff'),
         url('Recoleta-Bold.ttf') format('truetype');
-    font-weight: 700;
     font-style: normal;
 }
 
@@ -21,12 +23,20 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.fonte-3rem {
-    font-size: 3rem;
-}
-
 .fonte-bold-700 {
     font-weight: 700;
+}
+
+.fonte-1rem {
+    font-size: 1rem;
+}
+
+.fonte-2rem {
+    font-size: 2rem;
+}
+
+.fonte-3rem {
+    font-size: 3rem;
 }
 
 .linkdoscards {

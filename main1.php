@@ -6,8 +6,20 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <?php
-        echo 'main1';
-        ?>
+        <div>
+            <div class="row ">
+                <div class="col-6">
+                    <div class="fonte-recoleta fonte-bold-700 fonte-3rem">
+                        Um dia você podera marcar consultas por aqui. Um dia...
+                    </div>
+                    <div class="fonte-recoleta fonte-bold-700 fonte-2rem">
+                        Um dia isso será um botão. Um dia...
+                    </div>
+                </div>
+                <div class="col-6">
+                    <img src="imagens/medicafalloutsla.png" alt="Médica Sorrindo" style="width: 100%; height: 100%;">
+                </div>
+            </div>
+        </div>
     </body>
 </html>
