@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
-        <title>VittaClinic</title>
+        <link rel="icon" type="images/x-icon" href="imagens/heart-pulse.svg" />
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     </head>
     <body>
-        <?php
-        echo '<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">';
-        echo 'cabeçalho';
-        ?>
+        <div class="d-flex justify-content-center text-light background-color: #FFFFFF">
+            <h1 class="texto1rosa fonte-recoleta fonte-3rem">Vitta</h1>
+            <h1 class="texto1roxoescuro fonte-recoleta fonte-3rem">.</h1>
+            <h1 class="texto1rosa fonte-recoleta fonte-3rem">Clinic</h1>
+        </div>
     </body>
 </html>

@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+        <meta charset="UTF-8">
+        <title>VittaClinic</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <?php
-        include 'cabecalho.php'; echo '<br>';
-        include 'main1.php'; echo '<br>';
-        include 'rodape.php'; echo '<br>';
+        echo 'main1';
         ?>
-
     </body>
 </html>
-
-<!--teste-->
