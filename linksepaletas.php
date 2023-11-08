@@ -11,15 +11,16 @@
         https://drconsulta.com/
         https://htmlcolorcodes.com/color-chart/web-safe-color-chart/
         http://www.identifont.com/index.html
+        https://fontshub.pro/font/recoleta-download
 
         <h1>Paletas</h1>
         Texto 1 rosa
             #FF6699
-        Texto 1 roxo escuro
-            #000033
+        Texto 1 azul escuro
+            #000066
         Branco
             #FFFFFF
-        Botao destaque
+        Destaque azul
             #3366CC
     </body>
 </html>

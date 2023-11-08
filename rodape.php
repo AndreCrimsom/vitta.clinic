@@ -6,7 +6,7 @@
     </head>
     <body>
         <div>
-            <div class="row texto1branco fonte-recoleta fonte-bold-700 fonte-3rem" style="background-color: #FF6699;">
+            <div class="row texto1branco fonte-recoleta-bold-alt fonte-bold-700 fonte-3rem" style="background-color: #FF6699;">
                 <div class="col-3">
                     <h1>Vitta.Clinic</h1>
                 </div>

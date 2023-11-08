@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="d-flex justify-content-center text-light background-color: #FFFFFF">
-            <h1 class="texto1rosa fonte-recoleta fonte-bold-700 fonte-3rem">Vitta.Clinic</h1>
+            <h1 class="texto1rosa fonte-recoleta-bold-alt fonte-bold-700 fonte-3rem">Vitta.Clinic</h1>
         </div>
     </body>
 </html>
