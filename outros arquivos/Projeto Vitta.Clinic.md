@@ -10,7 +10,6 @@ Pagina Inicial (layout)
 
 Sistema
 	Integrar o banco de dados ao site
- 	Fazer o head do html em funções php
 
 Paginas
 	Pagina de Login
