@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles.css">
+        <?php 
+            require_once ('lib.php');
+        ?>
     </head>
     <body>
         <div>

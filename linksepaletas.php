@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
-        <title>VittaClinic</title>
-        <link rel="stylesheet" href="styles.css">
+        <?php 
+            require_once ('lib.php');
+            charset();
+        ?>
     </head>
     <body>
         <h1>Links</h1>

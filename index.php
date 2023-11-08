@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta name="viewport" content="width=device-witdh, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        <?php 
+            require_once ('lib.php');
+            charset();
+            bootview();
+            hearticon();
+        ?>
     </head>
     <body>
         <?php
@@ -13,5 +17,3 @@
 
     </body>
 </html>
-
-<!--teste-->
