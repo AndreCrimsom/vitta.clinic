@@ -9,11 +9,12 @@
         ?>
     </head>
     <body>
-        <?php
-        include 'cabecalho.php'; echo '<br>';
-        include 'main1.php'; echo '<br>';
-        include 'rodape.php'; echo '<br>';
-        ?>
-
+        <div>
+            <?php
+            include 'cabecalho.php'; echo '<br>';
+            include 'main1.php'; echo '<br>';
+            include 'rodape.php'; echo '<br>';
+            ?>
+        </div>
     </body>
 </html>

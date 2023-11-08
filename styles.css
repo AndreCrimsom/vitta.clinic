@@ -61,11 +61,27 @@
     font-size: 3rem;
 }
 
-.linkdoscards {
+.linklimpopreto {
     text-decoration: none;
     color:black;
 }
 
+.linklimpobranco {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .teste {
     background-color: #FFFFFF;
+}
+
+.retangulobotao {
+    height: fit-content;
+    width: 700px;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.bgazuldestaque {
+    background-color: #3366CC;
 }
