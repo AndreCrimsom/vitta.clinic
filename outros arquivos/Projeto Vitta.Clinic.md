@@ -9,10 +9,9 @@ Pagina Inicial (layout)
 
 
 Sistema
-	Integrar o banco de dados ao site
+	Integrar o banco de dados a pagina de login
 
 Paginas
-	Pagina de Login
 	Pagina onde se marca a consulta
 
 Ideias
