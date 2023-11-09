@@ -13,7 +13,7 @@
                         Um dia você podera marcar consultas por aqui. Um dia...
                     </div>
                     <div class="retangulobotao fonte-recoleta-bold-alt fonte-bold-700 fonte-2rem bgazuldestaque text-center">
-                        <a href="paginalogin.php" class="linklimpobranco">Um dia isso será um botão. Um dia...</a>
+                        <a href="externalpaginalogin.php" class="linklimpobranco">Um dia isso será um botão. Um dia...</a>
                     </div>
 
                 </div>

@@ -13,6 +13,7 @@
         https://htmlcolorcodes.com/color-chart/web-safe-color-chart/
         http://www.identifont.com/index.html
         https://fontshub.pro/font/recoleta-download
+        https://www.youtube.com/watch?v=eeHqZeJ9Vqc (video de onde peguei a pagina de login)
 
         <h1>Paletas</h1>
         Texto 1 rosa
