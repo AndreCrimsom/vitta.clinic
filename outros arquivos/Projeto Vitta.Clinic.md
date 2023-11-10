@@ -1,8 +1,6 @@
 Pagina Inicial (layout)
-	Margens
 	Rodapé precisa ir até o final da pagina
 	Texto Principal
-	Botão que leva a pagina de login
 	Serviços
 	Fale conosco (contato fictício)
 	Ajuda (não sei quais questões seriam respondidas)
