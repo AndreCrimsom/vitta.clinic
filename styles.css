@@ -1,5 +1,5 @@
 .texto1rosa {
-    color: #FF6699;
+    color: #ff4f84;
 }
 
 .texto1azulescuro {
@@ -61,6 +61,9 @@
     font-size: 3rem;
 }
 
+.fonte-7rem {
+    font-size: 7rem;
+}
 .linklimpopreto {
     text-decoration: none;
     color:black;
@@ -77,11 +80,15 @@
 
 .retangulobotao {
     height: fit-content;
-    width: 700px;
+    width: 400px;
     background-color: black;
-    border-radius: 5%;
+    border-radius: 25px 25px 25px 25px;
 }
 
 .bgazuldestaque {
     background-color: #3366CC;
+}
+
+.bgrosa {
+    background-color: #ff4f84;
 }

@@ -12,7 +12,7 @@
         <div>
             <?php
             include 'cabecalho.php'; echo '<br>';
-            include 'main1.php'; echo '<br>';
+            include 'conteudo1.php'; echo '<br>';
             include 'rodape.php'; echo '<br>';
             ?>
         </div>
