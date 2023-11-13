@@ -22,3 +22,11 @@ CREATE TABLE consulta (
     FOREIGN KEY (email_cliente_fk) REFERENCES cliente(email),
     FOREIGN KEY (email_medico_fk) REFERENCES medico(email)
 );
+
+INSERT INTO cliente VALUES("cliente@teste.com","123456");
+INSERT INTO medico VALUES("medico@teste.com","123456");
+INSERT INTO consulta VALUES(NULL, "1995-09-11","cliente@teste.com","medico@teste.com");
+
+SELECT * FROM cliente;
+SELECT * FROM medico;
+SELECT * FROM consulta;
