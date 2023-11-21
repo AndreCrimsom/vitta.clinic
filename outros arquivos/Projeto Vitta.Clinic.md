@@ -1,5 +1,6 @@
 Pagina Inicial (layout)
-	Rodapé precisa ir até o final da pagina
+	Participantes
+ 	Rodapé precisa ir até o final da pagina
 	Texto Principal
 	Serviços
 	Fale conosco (contato fictício)
@@ -7,7 +8,8 @@ Pagina Inicial (layout)
 
 
 Sistema
-	Integrar o banco de dados a pagina de login
+	Verificar se os dados de login inseridos conferem com os do servidor
+ 	Adicionar dados ao servidor por meio do sistema de registro
 
 Paginas
 	Pagina onde se marca a consulta
