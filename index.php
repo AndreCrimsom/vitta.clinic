@@ -14,6 +14,7 @@
             include 'cabecalho.php'; echo '<br>';
             include 'conteudo1.php'; echo '<br>';
             include 'rodape.php'; echo '<br>';
+            include 'testepdo.php';
             ?>
         </div>
     </body>

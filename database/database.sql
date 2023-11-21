@@ -1,3 +1,5 @@
+mysql -u root -p
+
 CREATE DATABASE vittaclinicteste;
 use vittaclinicteste;
 
