@@ -13,7 +13,7 @@
             <?php
             include 'cabecalho.php'; echo '<br>';
             include 'conteudo1.php'; echo '<br>';
-            include 'rodape.php'; echo '<br>';
+            include 'rodape1.php'; echo '<br>';
             include 'config.php';
             ?>
         </div>

@@ -10,9 +10,11 @@
             <div class="row texto1branco fonte-recoleta-bold-alt fonte-bold-700 fonte-3rem bgrosa">
                 <div class="col-3">
                     <h1>Vitta.Clinic</h1>
+                    <a href="apresentacao\participantes.php" class="texto1branco"><h2>Participantes<h2></a>
                 </div>
                 <div class="col-3">
                     <h1>Serviços</h1>
+                    <a href="apresentacao\funcionalidades.php" class="texto1branco"><h2>Funcionalidades<h2></a>
                 </div>
                 <div class="col-3">
                     <h1>Fale Conosco</h1>
