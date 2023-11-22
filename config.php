@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    $servername = "192.168.8.6";
+    $servername = "vittaclinic@192.168.8.6";
     $username = "vittaclinic";
     $password = "amd123";
     $dbname = "vittaclinic";
