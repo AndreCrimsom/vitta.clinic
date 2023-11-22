@@ -1,8 +1,6 @@
 Pagina Inicial (layout)
-	Participantes
  	Rodapé precisa ir até o final da pagina
 	Texto Principal
-	Serviços
 	Fale conosco (contato fictício)
 	Ajuda (não sei quais questões seriam respondidas)
 
