@@ -6,7 +6,7 @@
             bootview();
             hearticon();
         ?>
-        <link rel="stylesheet" href="externalpaginalogin.css">
+        <link rel="stylesheet" href="styleslogin.css">
     </head>
     <body>
         <div class="center">
