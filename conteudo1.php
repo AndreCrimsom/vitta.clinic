@@ -14,7 +14,7 @@
                         <div style="margin-left: 10rem; margin-top: -40px;">da sua saúde é coisa nossa.</div>
                     </div>
                     <div class="retangulobotao fonte-recoleta-bold-alt fonte-bold-700 fonte-2rem bgazuldestaque text-center" style="margin-left: 10rem; margin-top: 50px;">
-                        <a href="meulogin.php" class="linklimpobranco">Entre / faça seu cadastro</a>
+                        <a href="novologin.php" class="linklimpobranco">Entre / faça seu cadastro</a>
                     </div>
                 </div>
                 <div class="col-6">

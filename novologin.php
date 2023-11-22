@@ -1,3 +1,6 @@
+<?php
+    include 'config.php';
+?>
 <!doctype html>
 <html lang ="pt-br"></html>
 <html>
@@ -14,6 +17,3 @@
     <div>
 </body>
 </html>
-<?php
-    include 'config.php';
-?>
