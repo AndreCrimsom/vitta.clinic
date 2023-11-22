@@ -1,0 +1,94 @@
+.texto1rosa {
+    color: #ff4f84;
+}
+
+.texto1azulescuro {
+    color: #000066;
+}
+
+.texto1branco {
+    color: #FFFFFF;
+}
+
+.texto1destaqueazul{
+    color: #3366CC;
+}
+
+@font-face {
+    font-family: 'Recoletabold';
+    src: local('Recoleta Bold'), local('recoletabold/Recoleta-Bold'),
+        url('recoletabold/Recoleta-Bold.woff2') format('woff2'),
+        url('recoletabold/Recoleta-Bold.woff') format('woff'),
+        url('recoletabold/Recoleta-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.fonte-recoleta-bold {
+    font-family: 'Recoletabold';
+}
+
+@font-face {
+    font-family: 'Recoletaboldalt';
+    src: local('Recoleta Alt Bold'), local('Recoleta-Alt-Bold'),
+        url('recoletaboldalt/RecoletaAlt-Bold.woff2') format('woff2'),
+        url('recoletaboldalt/RecoletaAlt-Bold.woff') format('woff'),
+        url('recoletaboldalt/RecoletaAlt-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.fonte-recoleta-bold-alt {
+    font-family: 'Recoletaboldalt';
+}
+.fonte-arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fonte-bold-700 {
+    font-weight: 700;
+}
+
+.fonte-1rem {
+    font-size: 1rem;
+}
+
+.fonte-2rem {
+    font-size: 2rem;
+}
+
+.fonte-3rem {
+    font-size: 3rem;
+}
+
+.fonte-7rem {
+    font-size: 7rem;
+}
+.linklimpopreto {
+    text-decoration: none;
+    color:black;
+}
+
+.linklimpobranco {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.teste {
+    background-color: #FFFFFF;
+}
+
+.retangulobotao {
+    height: fit-content;
+    width: 400px;
+    background-color: black;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.bgazuldestaque {
+    background-color: #3366CC;
+}
+
+.bgrosa {
+    background-color: #ff4f84;
+}
