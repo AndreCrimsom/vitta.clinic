@@ -2,9 +2,9 @@
     session_start();
 
     $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "vittaclinicteste";
+    $username = "vittaclinic";
+    $password = "amd123";
+    $dbname = "vittaclinic";
     
     // Conexão com o banco de dados
     try {
