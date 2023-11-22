@@ -2,7 +2,7 @@
     session_start();
 
     $servername = "192.168.8.6";
-    $username = "vittaclinic";
+    $username = "vittaclinic@192.168.8.6";
     $password = "amd123";
     $dbname = "vittaclinic";
     
