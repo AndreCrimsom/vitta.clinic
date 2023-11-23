@@ -10,14 +10,23 @@
             <div class="row texto1branco fonte-recoleta-bold-alt fonte-bold-700 fonte-3rem bgrosa">
                 <div class="col-3">
                     <h1>Vitta.Clinic</h1>
-                    <a href="apresentacao\participantes.php" class="texto1branco"><h2>Participantes<h2></a>
+                    <a href="apresentacao\funcionalidades.php" class="texto1branco fonte-1rem"><h2>Funcionalidades<h2></a>
                 </div>
                 <div class="col-3">
-                    <h1>Serviços</h1>
-                    <a href="apresentacao\funcionalidades.php" class="texto1branco"><h2>Funcionalidades<h2></a>
+                    <h1>Nossa Equipe</h1>
+                    <a href="apresentacao\participantes.php" class="texto1branco fonte-1rem"><h2>Participantes<h2></a>
                 </div>
                 <div class="col-3">
                     <h1>Fale Conosco</h1>
+                    <div class="texto1branco fonte-1rem">
+                        Vittaclinic@gmail.com
+                    </div>
+                    <div class="texto1branco fonte-1rem">
+                        11 4002-8922
+                    </div>
+                    <div class="texto1branco fonte-1rem">
+                        <?php instagramicon();?> Vittaclinic
+                    </div>
                 </div>
                 <div class="col-3">
                     <h1>Ajuda</h1>

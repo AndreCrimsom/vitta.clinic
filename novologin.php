@@ -1,12 +1,9 @@
-<?php
-    include 'config.php';
-?>
 <!doctype html>
 <html lang ="pt-br"></html>
 <html>
 <head>
 	<?php 
-        require_once ('../lib.php');
+        require_once ('lib.php');
         charset();
         bootview();
         hearticon();
@@ -15,15 +12,15 @@
 
 <body>
     <div>
-        <h2>Formulário</h2>
-        <form method="post" action="salvar_dados.php">
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome" required><br><br>
-            
+        <h2>Formulário de Registro</h2>
+        <form method="post" action="processa_cadastro.php">
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" required><br><br>
             
-            <input type="submit" value="Enviar">
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required><br><br>
+            
+            <input type="submit" value="Registrar">
         </form>
     </div>
 </body>
