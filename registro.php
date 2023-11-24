@@ -1,5 +1,4 @@
 <?php
-    include 'config.php';
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email = $_POST['email'];
         $senha = $_POST['senha'];
@@ -30,7 +29,7 @@
 <body>
     <div>
         <h2>Formulário de Registro</h2>
-        <form method="post" action="registro.php">
+        <form method="post" action="login.php">
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" required><br><br>
             
@@ -40,6 +39,6 @@
             <input type="submit" value="Registrar">
         </form>
     </div>
-        <a href="login.php">ENTRAR</a>
+        <a href="paginalogin.php">ENTRAR</a>
 </body>
 </html>

@@ -1,28 +1,3 @@
-<?php
-    include 'config.php';
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $email = $_POST['email'];
-        $senha = $_POST['senha'];
-        
-        $stmt = $conn->prepare("SELECT * FROM usuarios WHERE email=?");
-        $stmt->execute([$email]); 
-        $email = $stmt->fetch();
-        if ($email) {
-            $stmt = $conn->prepare("SELECT * FROM usuarios WHERE senha=?");
-            $stmt->execute([$senha]); 
-            $senha = $stmt->fetch();
-            if ($senha) {
-                echo "parabains";
-            } else {
-                echo "verifique sua senha";
-            } 
-        } else {
-            echo "verifique seu email";
-        } 
-
-        $stmt->execute();
-    }
-?>
 <!doctype html>
 <html lang ="pt-br"></html>
 <html>
@@ -48,6 +23,6 @@
             <input type="submit" value="Entrar">
         </form>
     </div>
-        <a href="registro.php">REGISTRAR</a>
+        <a href="paginaregistro.php">REGISTRAR</a>
 </body>
 </html>

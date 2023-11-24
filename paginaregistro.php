@@ -12,10 +12,7 @@
         <div>
             <?php
             include 'futuranavbar.php'; echo '<br>';
-            include 'cabecalho.php'; echo '<br>';
-            include 'conteudo1.php'; echo '<br>';
-            include 'rodape1.php'; echo '<br>';
-            include 'config.php';
+            include 'registro.php';
             ?>
         </div>
     </body>
