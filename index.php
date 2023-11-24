@@ -1,3 +1,6 @@
+<?php 
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -11,6 +14,7 @@
     <body>
         <div>
             <?php
+            include 'futuranavbar'; echo '<br>';
             include 'cabecalho.php'; echo '<br>';
             include 'conteudo1.php'; echo '<br>';
             include 'rodape1.php'; echo '<br>';

@@ -30,7 +30,7 @@
 <body>
     <div>
         <h2>Formulário de Registro</h2>
-        <form method="post" action="novologin.php">
+        <form method="post" action="registro.php">
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" required><br><br>
             
