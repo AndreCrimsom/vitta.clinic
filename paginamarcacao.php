@@ -15,7 +15,7 @@
         <div>
             <?php
             include 'navbar.php'; echo '<br>';
-            include 'registro.php';
+            include 'marcacao.php';
             ?>
         </div>
     </body>
