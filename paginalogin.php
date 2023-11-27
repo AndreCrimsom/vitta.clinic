@@ -1,5 +1,5 @@
 <?php
-    include 'futuranavbar.php'; echo '<br>';
+    session_start();
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -14,6 +14,7 @@
     <body>
         <div>
             <?php
+            include 'navbar.php'; echo '<br>';
             include 'login.php';
             ?>
         </div>
