@@ -14,6 +14,9 @@
                                         if (isset($_SESSION['email'])) {
                                             echo "USUARIO: " . $_SESSION['email']['email'];
                                         }
+                                        else {
+                                            <a href="paginalogin.php" class="linklimpobranco">Entre / faça seu cadastro</a>
+                                        }
                                     ?>
                                 </div>
                             </div>
