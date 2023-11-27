@@ -15,7 +15,8 @@
                                             echo "USUARIO: " . $_SESSION['email']['email'];
                                         }
                                         else {
-                                            echo '<a href="paginalogin.php" class="linklimpobranco">Entre / faça seu cadastro</a>';
+                                            echo '<div class="texto1branco fonte-recoleta-bold-alt fonte-bold-700 fonte-1rem">
+                                            <a href="paginalogin.php" class="linklimpobranco">Entre / faça seu cadastro</a> </div>';
                                         }
                                     ?>
                                 </div>
