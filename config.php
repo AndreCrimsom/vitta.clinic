@@ -1,7 +1,7 @@
 <?php
     $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $username = "vittaclinic";
+    $password = "amd123";
     $dbname = "vittaclinic";
     
     // Conexão com o banco de dados
