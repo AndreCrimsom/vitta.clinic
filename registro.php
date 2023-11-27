@@ -1,35 +1,42 @@
 <?php
+    include 'config.php'; echo '<br>';
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email = $_POST['email'];
         $senha = $_POST['senha'];
-
-        // Preparar a instrução SQL para inserção de dados
-        $query = "INSERT INTO usuarios (email, senha) VALUES (:email, :senha)";
-        $stmt = $conn->prepare($query);
-        
-        // Bind dos parâmetros e execução da query
-        $stmt->bindParam(':email', $email);
-        $stmt->bindParam(':senha', $senha);
-        
-        $stmt->execute();
+    
+        // Verifica se o email já está registrado
+        $query_check = "SELECT COUNT(*) as count FROM usuarios WHERE email = :email";
+        $stmt_check = $conn->prepare($query_check);
+        $stmt_check->bindParam(':email', $email);
+        $stmt_check->execute();
+        $result = $stmt_check->fetch(PDO::FETCH_ASSOC);
+    
+        if ($result['count'] > 0) {
+            echo "Este email já está registrado. Escolha outro email.";
+        } else {
+            // Email não está registrado, realiza a inserção
+            $query_insert = "INSERT INTO usuarios (email, senha) VALUES (:email, :senha)";
+            $stmt_insert = $conn->prepare($query_insert);
+            $stmt_insert->bindParam(':email', $email);
+            $stmt_insert->bindParam(':senha', $senha);
+            $stmt_insert->execute();
+    
+            echo "Registro realizado com sucesso!";
+            header("Location: paginalogin.php");
+        }
     }
 ?>
 <!doctype html>
 <html lang ="pt-br"></html>
 <html>
 <head>
-	<?php 
-        require_once ('lib.php');
-        charset();
-        bootview();
-        hearticon();
-    ?>
+
 </head>
 
 <body>
     <div>
         <h2>Formulário de Registro</h2>
-        <form method="post" action="login.php">
+        <form method="post">
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" required><br><br>
             

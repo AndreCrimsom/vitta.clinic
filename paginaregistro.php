@@ -11,7 +11,7 @@
     <body>
         <div>
             <?php
-            include 'futuranavbar.php'; echo '<br>';
+            include 'navbar.php'; echo '<br>';
             include 'registro.php';
             ?>
         </div>
