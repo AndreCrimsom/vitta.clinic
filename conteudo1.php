@@ -18,7 +18,7 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <img src="imagens/medicafalloutsla.png" alt="Médica Sorrindo" style="width: 100%; height: 100%;">
+                    <img src="imagens/duplavt.png" alt="OS CARAS" style="width: 100%; height: 100%;">
                 </div>
             </div>
         </div>
