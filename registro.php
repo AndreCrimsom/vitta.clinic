@@ -4,7 +4,6 @@
         $email = $_POST['email'];
         $senha = $_POST['senha'];
     
-        // Verifica se o email já está registrado
         $query_check = "SELECT COUNT(*) as count FROM usuarios WHERE email = :email";
         $stmt_check = $conn->prepare($query_check);
         $stmt_check->bindParam(':email', $email);
@@ -14,7 +13,6 @@
         if ($result['count'] > 0) {
             echo "Este email já está registrado. Escolha outro email.";
         } else {
-            // Email não está registrado, realiza a inserção
             $query_insert = "INSERT INTO usuarios (email, senha) VALUES (:email, :senha)";
             $stmt_insert = $conn->prepare($query_insert);
             $stmt_insert->bindParam(':email', $email);
