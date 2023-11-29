@@ -1,21 +1,14 @@
 <?php
-    include 'config.php'; echo '<br>';
+include 'config.php';
 
-// Verificar se um horário foi selecionado
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $horarioSelecionado = $_POST['horario'];
+if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['horario'])) {
+    $horario = $_POST['horario'];
 
-    // Atualizar o horário selecionado no banco de dados
-    $stmt = $conn->prepare('UPDATE horarios SET disponivel = 0 WHERE horario = :horario');
-    $stmt->bindParam(':horario', $horarioSelecionado);
-    $stmt->execute();
+    $stmt = $conn->prepare("UPDATE horarios SET disponivel = FALSE WHERE horario = ?");
+    $stmt->execute([$horario]);
 
-    echo 'Horário selecionado com sucesso!';
+    echo $stmt->rowCount() > 0 ? "Horário reservado com sucesso!" : "Nenhum horário foi atualizado. Verifique os dados.";
 }
-
-// Exibir os horários disponíveis
-$stmt = $conn->query('SELECT * FROM horarios WHERE disponivel = 1');
-$horarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <!DOCTYPE html>
@@ -24,20 +17,34 @@ $horarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <title>Sistema de Horários</title>
 </head>
 <body>
-    <h1>Horários Disponíveis</h1>
+    <h2>Selecionar Horário Disponível</h2>
+    <form method="post">
+        <label for="horario">Escolha um horário:</label>
+        <select name="horario">
+            <?php
+            $query = "SELECT * FROM horarios WHERE disponivel = TRUE";
+            $stmt = $conn->query($query);
+            while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                echo "<option value='".$row['horario']."'>".$row['horario']."</option>";
+            }
+            ?>
+        </select><br><br>
+        <input type="submit" value="Reservar">
+    </form>
+    <div>
+        <?php
+            $query = "SELECT * FROM horarios WHERE disponivel = FALSE";
+            $stmt = $conn->query($query);
+            $usadas = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-    <?php if (count($horarios) > 0): ?>
-        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-            <select name="horario">
-                <?php foreach ($horarios as $horario): ?>
-                    <option value="<?php echo $horario['horario']; ?>"><?php echo $horario['horario']; ?></option>
-                <?php endforeach; ?>
-            </select>
-
-            <input type="submit" value="Selecionar">
-        </form>
-    <?php else: ?>
-        <p>Não há horários disponíveis!</p>
-    <?php endif; ?>
+            if ($usadas) {
+                foreach ($usadas as $horario) {
+                    echo $horario['horario'] . "<br>";
+                }
+            } else {
+                echo 'Todos os horários estão livres!';
+            }
+        ?>
+    </div>
 </body>
 </html>

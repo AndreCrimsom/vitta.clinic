@@ -37,7 +37,7 @@
 <body>
     <div>
         <h2>Formulário de Login</h2>
-        <form method="post" action="">
+        <form method="post">
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" required><br><br>
             
